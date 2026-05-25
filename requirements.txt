@@ -1,0 +1,27 @@
+---
+
+## 📦 requirements.txt
+
+```text
+# Health Monitor v4.0 - Arduino Libraries Requirements
+# Cài đặt qua Arduino IDE: Sketch -> Include Library -> Manage Libraries
+# Hoặc dùng PlatformIO (lib_deps trong platformio.ini)
+
+# Cảm biến MAX30105 (nhịp tim + SpO2)
+SparkFun MAX30105 Pulse Oximeter and Heart Rate Sensor@^1.1.3
+
+# Cảm biến nhiệt độ MAX30205
+Protocentral MAX30205@^1.0.0
+
+# Màn hình OLED SSD1306 + đồ họa
+Adafruit SSD1306@^2.5.7
+Adafruit GFX Library@^1.11.5
+
+# Firebase Realtime Database cho ESP32
+Firebase ESP32 Client@^4.3.9
+
+# Quản lý WiFi (WiFiManager) - tự động cấu hình qua captive portal
+WiFiManager@^2.0.16-rc2
+
+# (Tuỳ chọn) I2C scan - dùng để debug địa chỉ
+# (không bắt buộc, có thể tự viết sketch)
